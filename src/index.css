@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-child {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+}
+
+.card:hover > .card-child {
+  display: flex;
+  position: relative;
+}
